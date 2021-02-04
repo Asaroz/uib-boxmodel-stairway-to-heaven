@@ -33,6 +33,10 @@
     border:5px solid rgb(71, 73, 72);
 }
 
+
+
+
+
 #site2_border{
     height: 500px;
     width: 500px;
@@ -40,47 +44,31 @@
     display:inline-table
 }
 
-#second_1{
+.second_1{
     background-color:rgb(233, 247, 39) ;
     height: 125px;
     width: 125px;
     box-sizing: border-box;
     border: 5px solid orange;
-    display:inline-block;
+
 }
-#second_2{
-    background-color:rgb(233, 247, 39) ;
+
+#redbox_1{
     height: 125px;
     width: 125px;
-    box-sizing: border-box;
-    border: 5px solid orange;
-    display:inline-block
-    
+    background-color: red; 
+    padding-left: 125px;
 }
-#second_3{
-    background-color:rgb(233, 247, 39) ;
-    height: 125px;
-    width: 125px;
-    box-sizing: border-box;
-    border: 5px solid orange;
-    display:inline-block
-}
-#second_4{
-    background-color:rgb(233, 247, 39) ;
-    height: 125px;
-    width: 125px;
-    box-sizing: border-box;
-    border: 5px solid orange;
-    display:inline-block
-}
-#redbox{
+
+#redbox_2{
     height: 125px;
     width: 125px;
     background-color: red;
-    display:inline-block
+    padding-left: 250px;
 }
-.filler{
+#redbox_3{
     height: 125px;
-    width: 500px;
-    display:flex
+    width: 125px;
+    background-color: red;
+    padding-left: 375px;
 }
