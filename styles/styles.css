@@ -37,6 +37,7 @@
     height: 500px;
     width: 500px;
     position: absolute;
+    display:inline-table
 }
 
 #second_1{
@@ -44,32 +45,42 @@
     height: 125px;
     width: 125px;
     box-sizing: border-box;
-    border: 5px solid orangered;
+    border: 5px solid orange;
+    display:inline-block;
 }
 #second_2{
     background-color:rgb(233, 247, 39) ;
     height: 125px;
     width: 125px;
-    padding-right: 120px;
     box-sizing: border-box;
-    border: 5px solid orangered;
-    border-left-width: 130px;
+    border: 5px solid orange;
+    display:inline-block
+    
 }
 #second_3{
     background-color:rgb(233, 247, 39) ;
     height: 125px;
     width: 125px;
     box-sizing: border-box;
-    border: 5px solid orangered;
-    padding-right: 120px;
-    border-left-width: 255px;
+    border: 5px solid orange;
+    display:inline-block
 }
 #second_4{
     background-color:rgb(233, 247, 39) ;
     height: 125px;
     width: 125px;
     box-sizing: border-box;
-    border: 5px solid orangered;
-    padding-right: 120px;
-    border-left-width: 380px;
+    border: 5px solid orange;
+    display:inline-block
+}
+#redbox{
+    height: 125px;
+    width: 125px;
+    background-color: red;
+    display:inline-block
+}
+.filler{
+    height: 125px;
+    width: 500px;
+    display:flex
 }
